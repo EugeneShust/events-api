@@ -274,7 +274,8 @@ const options = (port) => ({
     ...swaggerDefinition,
     servers: [
       {
-        url: `http://localhost:${port}`,
+        //url: `http://localhost:${port}`,
+        url: "https://events-api-on1o.onrender.com/api-docs",
         description: "Local server",
       },
     ],
